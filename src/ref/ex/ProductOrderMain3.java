@@ -12,7 +12,7 @@ public class ProductOrderMain3 {
 
         ProductOrder[] orders = new ProductOrder[n];
         for (int i = 0; i < n; i++) {
-            System.out.println((i + 1) + "번째 주문 정보를 입력하세요.");
+            System.out.println((i + 1) + "번째n 주문 정보를 입력하세요.");
 
             System.out.print("상품명: ");
             String productName = scanner.nextLine();
@@ -23,6 +23,7 @@ public class ProductOrderMain3 {
             System.out.print("상품명: ");
             int quantity = scanner.nextInt();
             scanner.nextLine(); //입력 버퍼를 비우기 위한 코드
+
 
             orders[i] = createProductOrder(productName, price, quantity);
         }
